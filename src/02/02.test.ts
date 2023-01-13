@@ -73,12 +73,6 @@ test("test city should contains 3 houses", () => {
     expect(city.houses[0].repaired).toBe(false);
     expect(city.houses[0].address.number).toBe(100);
     expect(city.houses[0].address.street.title).toBe("White street");
-    expect(city.houses[0].address.street.title).toBe("White street");
-    expect(city.houses[0].address.street.title).toBe("White street");
-    expect(city.houses[0].address.street.title).toBe("White street");
-    expect(city.houses[0].address.street.title).toBe("White street");
-    expect(city.houses[0].address.street.title).toBe("White street");
-    expect(city.houses[0].address.street.title).toBe("White street");
 
     expect(city.houses[1].buildedAt).toBe(2008);
     expect(city.houses[1].repaired).toBe(false);
